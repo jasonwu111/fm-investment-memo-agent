@@ -1,0 +1,299 @@
+FM MEMO RULES BUILDER — SEQUENTIAL TEST PROMPTS v1
+
+IMPORTANT OPERATING RULE
+
+Run these prompts one at a time and in order. Review the output after every prompt. Do not send the next prompt until the acceptance checks for the current prompt are satisfied.
+
+======================================================================
+PROMPT 0 — CONFIRM CONTROL-DOCUMENT UNDERSTANDING
+======================================================================
+
+Before beginning the methodology-development workflow, read the two uploaded control documents.
+
+Confirm your understanding by explaining:
+
+1. The exact filename and role of each control document.
+2. Which document defines WHAT the final memo should contain.
+3. Which document defines HOW the drafting rules should be developed.
+4. Why the Authoring Brief is not itself the final Drafting Rules.
+5. What role historical final memos and source packages play.
+6. The exact title of the new document you are expected to produce.
+7. The authority and source-precedence order you will follow.
+
+List any control file that you cannot access or that is still preparing.
+
+Do not inventory the historical cases and do not draft any rules yet.
+
+ACCEPTANCE CHECKS:
+- Correctly identifies both files.
+- Schema = WHAT; Authoring Brief = HOW.
+- Identifies historical cases as calibration evidence.
+- Names the future standalone Drafting Rules document.
+- Does not begin rule drafting.
+
+======================================================================
+PROMPT 1 — INVENTORY ACCESSIBLE CALIBRATION MATERIALS
+======================================================================
+
+Proceed only with the inventory phase.
+
+Inventory every accessible file in the connected calibration folders. For each item, provide:
+
+- Case ID or proposed case ID.
+- Firm and fund, if determinable from the file itself.
+- Exact filename.
+- Folder path or available location identifier.
+- Document type.
+- Document date or as-of date.
+- Draft, final, approved, duplicate, or unknown status.
+- Proposed role: final memo, legal/terms source, GP diligence material, FM note, supporting analysis, or other.
+- Readiness/access status.
+
+Then propose a pairing between each approved final memo and its corresponding source package. Explain the evidence supporting every pairing.
+
+Flag:
+
+- Missing expected materials.
+- Multiple memo versions.
+- Ambiguous final versions.
+- Duplicate files.
+- Files that appear to belong to another fund.
+- Files you cannot open or fully read.
+
+Do not build drafting rules and do not inspect any designated held-out validation case.
+
+ACCEPTANCE CHECKS:
+- Complete file-level inventory.
+- Pairings use explicit folder/file evidence.
+- Drafts and duplicates are flagged.
+- No held-out case used.
+- No drafting rules produced.
+
+======================================================================
+PROMPT 2 — VERIFY CASE PAIRINGS AND DEVELOPMENT SCOPE
+======================================================================
+
+Using the inventory, produce a final calibration-scope table containing only the cases suitable for methodology development.
+
+For each included case, show:
+
+- Case ID.
+- Approved final memo.
+- Exact source-package boundary.
+- Evidence that the memo and source package correspond.
+- Known missing materials.
+- Whether the case should be included, excluded, or held pending clarification.
+
+Separately list all excluded files and explain why they are excluded.
+
+End with the exact sentence:
+
+"Rule development should proceed" or "Rule development should not proceed."
+
+Do not proceed to source mapping until the user approves the case pairings.
+
+ACCEPTANCE CHECKS:
+- Every case has an explicit boundary.
+- Uncertain cases are held rather than guessed.
+- Cross-fund files are excluded.
+- Agent stops for approval.
+
+======================================================================
+PROMPT 3 — BUILD THE CROSS-MEMO SOURCE-TO-SECTION MAP
+======================================================================
+
+The calibration case pairings are approved. Build a cross-memo source-to-section evidence map using only the approved development cases.
+
+For every section and field in LP_Investment_Memo_Template_Schema_v1.txt, provide:
+
+- Required or conditional status from the Schema.
+- Whether the field appears in each historical final memo.
+- The exact source document or documents supporting it.
+- Page, slide, section, table, or meeting-date locator when available.
+- Source category and authority level.
+- How the source content was transformed into memo language.
+- Whether the output is documented fact, GP representation, FM observation, or LP analysis/inference.
+- Any conflict, unsupported statement, or missing evidence.
+- Whether the observed practice is recurring or case-specific.
+
+Create separate tables for:
+
+1. Core identifiers.
+2. Due-diligence chronology.
+3. Fund Terms Summary.
+4. Firm, Team, and Key Persons.
+5. Strategy and conditional strategy changes.
+6. Value Creation.
+7. Investment Process and conditional process changes.
+
+Do not draft the final rules yet. End with a list of unresolved questions requiring human input.
+
+ACCEPTANCE CHECKS:
+- Covers every Schema section.
+- Uses exact source locators when available.
+- Separates fact, representation, observation, and inference.
+- Identifies unsupported historical memo content.
+- Distinguishes recurring patterns from case-specific content.
+
+======================================================================
+PROMPT 4 — DRAFT THE SECTION-BY-SECTION RULEBOOK
+======================================================================
+
+Using the approved Template Schema and completed source-to-section map, draft a standalone document titled:
+
+LP Investment Memo - Section-by-Section Drafting Rules v1
+
+For every memo section and field, include:
+
+1. Purpose.
+2. Required or conditional status.
+3. Information to capture.
+4. Preferred source hierarchy.
+5. Retrieval and evidence requirements.
+6. Transformation and summarization method.
+7. Attribution requirements.
+8. Missing-information treatment.
+9. Conflict-resolution method.
+10. Inclusion and omission logic.
+11. Prohibited behavior.
+12. Quality-control tests.
+13. Example output pattern when useful.
+
+Explicitly include rules preventing:
+
+- Cross-fund contamination.
+- Invented facts or terms.
+- Silent conflict resolution.
+- Treating GP marketing claims as FM conclusions.
+- Unsupported optional sections.
+- Combining distinct legal entities or fund vehicles.
+
+Mark the document "DRAFT — NOT YET VALIDATED." Do not claim it is production-ready.
+
+ACCEPTANCE CHECKS:
+- Standalone rulebook, not a commentary about the rulebook.
+- Covers all required and conditional sections.
+- Includes evidence, missing-data, conflict, and QC rules.
+- Clearly marked unvalidated.
+
+======================================================================
+PROMPT 5 — PRE-VALIDATION SELF-AUDIT
+======================================================================
+
+Audit the draft rulebook against:
+
+1. The complete Template Schema.
+2. The Authoring Brief requirements.
+3. The approved cross-memo source map.
+
+Produce a gap table with:
+
+- Requirement.
+- Covered fully, partially, or missing.
+- Location in the draft rulebook.
+- Deficiency.
+- Proposed correction.
+
+Revise the draft only after showing the gap table. Keep it marked "DRAFT — NOT YET VALIDATED."
+
+ACCEPTANCE CHECKS:
+- No Schema fields omitted.
+- No Authoring Brief control requirement omitted.
+- Revisions are traceable to identified gaps.
+
+======================================================================
+PROMPT 6 — HELD-OUT CASE VALIDATION
+======================================================================
+
+The held-out validation case has now been connected. Do not use its approved final memo as an input while producing the simulated memo output.
+
+Using only:
+
+- The Template Schema.
+- The draft Section-by-Section Drafting Rules.
+- The held-out case source package, excluding its final memo.
+
+perform the following:
+
+1. Build a source inventory for the held-out case.
+2. Build an evidence map.
+3. Identify missing and conflicting information.
+4. Produce a simulated section-by-section memo draft.
+5. Cite the supporting source and locator for every material fact.
+
+After completing the simulated output, compare it with the approved held-out final memo. Report every discrepancy in a validation table containing:
+
+- Section or field.
+- Simulated output.
+- Approved historical output.
+- Relevant source evidence.
+- Error category.
+- Root cause.
+- Proposed rule revision.
+
+Use these error categories where applicable:
+
+- Retrieval failure.
+- Wrong source selected.
+- Extraction error.
+- Summarization error.
+- Attribution error.
+- Unsupported inference.
+- Cross-fund contamination.
+- Missing required content.
+- Incorrect optional-section decision.
+- Formatting or tone mismatch.
+
+Do not declare the rules validated merely because the outputs are similar. Focus on factual support and rule compliance.
+
+ACCEPTANCE CHECKS:
+- Final memo withheld until after simulated drafting.
+- Every discrepancy classified.
+- Root causes translated into proposed rule changes.
+- Accuracy evaluated separately from stylistic similarity.
+
+======================================================================
+PROMPT 7 — REVISE, FINALIZE, AND PREPARE THE PRODUCTION HANDOFF
+======================================================================
+
+Revise the rulebook using the held-out validation findings. Produce:
+
+1. A change log showing every modification and its validation basis.
+2. The complete revised standalone rulebook.
+3. A final coverage and control checklist.
+4. Remaining limitations and items requiring human review.
+5. A recommendation of either:
+   - "Ready for human approval for production use"; or
+   - "Not ready for production use."
+
+If and only if the user subsequently approves the revised rulebook, prepare a separate production-agent configuration package containing:
+
+- Proposed production Agent name and description.
+- Production Instructions.
+- Required Knowledge files.
+- Per-fund source-folder setup.
+- Starter prompts.
+- Evidence-map workflow.
+- Drafting workflow.
+- Audit workflow.
+- Human approval gates.
+
+The production Agent must use the approved Template Schema and validated Drafting Rules. It must not treat the Rules Authoring Brief as its daily drafting rulebook.
+
+ACCEPTANCE CHECKS:
+- Validation-driven change log present.
+- Full revised rulebook present.
+- Limitations disclosed.
+- Production handoff withheld until human approval.
+
+======================================================================
+CORRECTION PROMPT — USE WHEN THE AGENT MOVES TOO FAST
+======================================================================
+
+Stop. You have moved beyond the currently authorized phase. Return to the last approved workflow step, identify what you completed without authorization, and redo only the requested phase. Do not draft later-stage outputs until I explicitly approve continuation.
+
+======================================================================
+CORRECTION PROMPT — USE WHEN SOURCES ARE UNCLEAR
+======================================================================
+
+Do not infer or guess the missing relationship. Show the exact files, folder boundaries, dates, and content evidence that support your proposed conclusion. If the evidence remains insufficient, label the item unresolved and request human clarification.
