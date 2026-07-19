@@ -1,0 +1,60 @@
+FM MEMO RULES BUILDER — CURRENT CALIBRATION CASE NOTES v1
+
+PURPOSE
+
+This file provides case-boundary and retrieval guidance for the current methodology-development set. It is not an authoritative source for fund facts and does not replace the attached SharePoint folders or the underlying documents.
+
+CALIBRATION-ONLY RESTRICTION
+
+This file and both historical case folders are for Rules Builder calibration and validation only. Do not attach them to the future production FM Investment Memo Agent. Transfer only the approved general Schema and validated general Drafting Rules into production.
+
+CASE 01
+
+SharePoint Folder Name:
+Bain Capital Insurance Fund II
+
+Target Fund:
+Bain Capital Insurance Fund II
+
+Expected Folder Structure:
+- Approved Final Memo
+- Source Package
+
+Package Note:
+This Source Package may contain fewer documents than the Bessemer case but is expected to contain the core available materials. Do not treat the smaller package size as evidence that a required fact does or does not exist. Search the available priority sources and state "Not found in the reviewed materials" when support is absent.
+
+Strict Boundary:
+Use fund-specific information only when it clearly applies to Bain Capital Insurance Fund II. If the package contains other Bain Capital funds, predecessor funds, parallel vehicles, comparison funds, or mixed-fund documents, do not transfer their fund-specific information into Bain Capital Insurance Fund II fields.
+
+CASE 02
+
+SharePoint Folder Name:
+Bessemer Century Fund III
+
+Target Fund:
+Bessemer Century Fund III
+
+Expected Folder Structure:
+- Approved Final Memo
+- Source Package
+
+Package Note:
+This Source Package is expected to be more extensive and may contain materials referring to more than one fund. Greater volume does not change the target-fund boundary.
+
+Strict Boundary:
+Use fund-specific information only when it clearly applies to Bessemer Century Fund III. Classify predecessor, comparison, parallel, or other Bessemer funds separately. If one document discusses multiple funds, extract only passages attributable to Bessemer Century Fund III and flag ambiguous passages.
+
+SOURCE-PACKAGE RETRIEVAL GUIDANCE FOR BOTH CASES
+
+1. First inspect folder names and filenames to identify likely fund relevance, document type, date, and version.
+2. Prioritize legal-related folders and clean/current summary term sheets or fund-term summaries for core identifiers and fund terms.
+3. Prioritize clean/current/executed LPA and related governing documents for exact legal terms.
+4. Prioritize team information, organization charts, biographies, and key-person materials for Team and Key Persons.
+5. Prioritize due diligence files, DDQs, meeting materials, and FM notes for Firm, Team, Strategy, Value Creation, Investment Process, and changes over time.
+6. Use PPMs, fundraising decks, and strategy materials for mandate, portfolio construction, sectors, geography, sourcing, target returns, and value creation.
+7. Deprioritize files labeled redline, blackline, comparison, marked, or changes when a clean/current/final/executed version is available. Use comparison files only to understand changes or when no clean version exists, and flag that limitation.
+8. Treat filenames as routing clues only. Verify fund name, vehicle, date, version, and content before using a fact.
+
+PAIRING RULE
+
+The Approved Final Memo and Source Package located within the same attached SharePoint case folder should be treated as a proposed pair. The Agent must verify the pairing during inventory and stop for clarification if the content indicates otherwise.

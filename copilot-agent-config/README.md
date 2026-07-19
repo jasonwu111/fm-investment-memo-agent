@@ -17,18 +17,22 @@ copilot-agent-config/
 ├── README.md
 └── rules-builder/
     ├── 01_FM_Memo_Rules_Builder_Instructions_v1.txt
+    ├── 01_FM_Memo_Rules_Builder_Instructions_v1.1.txt
     ├── 02_Knowledge_Source_Setup_Guide_v1.md
     ├── 03_FM_Memo_Rules_Builder_Test_Prompts_v1.txt
-    └── 04_Tuning_and_Test_Log_Template.md
+    ├── 03A_Source_Triage_and_Target_Fund_Test_Prompt_v1.txt
+    ├── 04_Tuning_and_Test_Log_Template.md
+    └── 05_Calibration_Case_Notes_v1.txt
 ```
 
 ## How to Use This Package
 
-1. Copy the complete contents of `01_FM_Memo_Rules_Builder_Instructions_v1.txt` into the Microsoft 365 Copilot Agent Builder **Instructions** field.
+1. Copy the complete contents of the latest Instructions file—currently `01_FM_Memo_Rules_Builder_Instructions_v1.1.txt`—into the Microsoft 365 Copilot Agent Builder **Instructions** field.
 2. Follow `02_Knowledge_Source_Setup_Guide_v1.md` to add the two control documents and the historical calibration cases.
 3. Run the prompts in `03_FM_Memo_Rules_Builder_Test_Prompts_v1.txt` in order. Do not send all prompts at once.
-4. Record every test run and configuration change in `04_Tuning_and_Test_Log_Template.md`.
-5. Commit changes before configuring the other computer so that the GitHub repository remains the source of truth.
+4. For the current Bain Capital Insurance Fund II and Bessemer Century Fund III calibration set, upload `05_Calibration_Case_Notes_v1.txt` as Knowledge and run `03A_Source_Triage_and_Target_Fund_Test_Prompt_v1.txt` after the inventory prompt.
+5. Record every test run and configuration change in `04_Tuning_and_Test_Log_Template.md`.
+6. Commit changes before configuring the other computer so that the GitHub repository remains the source of truth.
 
 ## Versioning Convention
 
@@ -45,3 +49,5 @@ copilot-agent-config/production-memo-agent/
 ```
 
 The production agent should use the approved Template Schema and validated Drafting Rules. It should not use the Rules Authoring Brief as its daily operating rulebook.
+
+Do not connect raw historical calibration memos, source packages, or case notes to the production agent. Each production run should be limited to one user-confirmed target-fund folder plus the approved Schema and validated Drafting Rules.

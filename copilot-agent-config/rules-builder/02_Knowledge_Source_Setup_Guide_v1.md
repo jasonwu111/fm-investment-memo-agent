@@ -21,6 +21,12 @@ Upload these two files as Knowledge:
 1. `LP_Investment_Memo_Template_Schema_v1.txt`
 2. `Section_by_Section_Drafting_Rules_Authoring_Brief_v1.txt`
 
+For the current Bain Capital Insurance Fund II and Bessemer Century Fund III calibration cases, also upload:
+
+3. `05_Calibration_Case_Notes_v1.txt`
+
+The Case Notes describe the current folder boundaries and package-specific triage guidance. They do not replace the SharePoint folder connections and are not an authoritative source for fund facts.
+
 Wait until neither file displays `Preparing` before testing.
 
 ## 3. Initial Calibration Cases
@@ -72,6 +78,7 @@ Do not add:
 - Source packages whose relationship to a final memo is unclear.
 - Materials for unrelated funds in the same calibration folder.
 - The held-out validation case before validation.
+- Redline, blackline, or comparison copies when a clean/current/final version of the same document is available, unless change analysis is required.
 
 Websites can be considered later for narrow verification use, but they should not be part of initial rule calibration because they weaken source control and reproducibility.
 

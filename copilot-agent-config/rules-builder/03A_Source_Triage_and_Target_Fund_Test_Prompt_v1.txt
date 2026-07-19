@@ -1,0 +1,35 @@
+SOURCE TRIAGE AND TARGET-FUND CONTROL TEST
+
+Run this prompt after the initial file inventory and before approving the calibration scope.
+
+Using the two attached SharePoint case folders and 05_Calibration_Case_Notes_v1.txt, produce a source-triage report. Do not draft rules or memo content.
+
+For each case:
+
+1. State the exact case-folder name and target fund.
+2. Identify the Approved Final Memo and Source Package boundary.
+3. Inventory the immediate Source Package folders and filenames before deep reading.
+4. Classify every potentially relevant document as:
+   - Current target fund or vehicle.
+   - Firm-level information applicable across funds.
+   - Predecessor or comparison fund.
+   - Other fund or strategy.
+   - Ambiguous or mixed.
+5. Identify which documents should be reviewed first for:
+   - Header and core identifiers.
+   - Fund terms.
+   - Firm.
+   - Team and Key Persons.
+   - Strategy.
+   - Value Creation.
+   - Investment Process and changes over time.
+6. Identify redline, blackline, comparison, marked, superseded, draft, duplicate, or older-version files. For each, identify the preferred clean/current/final/executed version when available.
+7. Flag any document containing multiple funds and state how target-fund passages will be isolated.
+8. State any access, readability, missing-file, or package-completeness limitations.
+
+Important controls:
+
+- Filename matches are routing clues, not evidence. Verify content before use.
+- Do not import information from a predecessor, comparison, parallel, or other fund into target-fund fields.
+- Do not infer a fact merely because it appears in the other calibration case.
+- Do not continue to drafting rules until I approve this triage report.

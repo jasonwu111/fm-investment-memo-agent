@@ -170,11 +170,22 @@ Explicitly include rules preventing:
 
 Mark the document "DRAFT — NOT YET VALIDATED." Do not claim it is production-ready.
 
+GENERALIZATION REQUIREMENT:
+
+The rulebook must be reusable for future firms, funds, strategies, vehicles, and folder structures. Do not embed Bain Capital Insurance Fund II, Bessemer Century Fund III, their URLs, folder paths, filenames, people, fund terms, or other case-specific facts as operative rules. If an example is useful, anonymize it as Target Fund, Predecessor Fund, Firm A, Case 01, or another clearly generic placeholder.
+
+Separate:
+
+- General reusable drafting rule.
+- Observed calibration pattern.
+- Case-specific fact that must not enter the rulebook.
+
 ACCEPTANCE CHECKS:
 - Standalone rulebook, not a commentary about the rulebook.
 - Covers all required and conditional sections.
 - Includes evidence, missing-data, conflict, and QC rules.
 - Clearly marked unvalidated.
+- Contains no case-specific hard coding in operative rules.
 
 ======================================================================
 PROMPT 5 — PRE-VALIDATION SELF-AUDIT
@@ -280,11 +291,26 @@ If and only if the user subsequently approves the revised rulebook, prepare a se
 
 The production Agent must use the approved Template Schema and validated Drafting Rules. It must not treat the Rules Authoring Brief as its daily drafting rulebook.
 
+PRODUCTION KNOWLEDGE ISOLATION:
+
+The production Agent must not remain connected to the Bain Capital Insurance Fund II or Bessemer Century Fund III calibration folders, their historical final memos, their Source Packages, or 05_Calibration_Case_Notes_v1.txt. It must not use the Authoring Brief as production drafting knowledge.
+
+For each production run, the production Agent should use only:
+
+1. The approved Template Schema.
+2. The validated Section-by-Section Drafting Rules.
+3. The one current target-fund folder explicitly selected by the user.
+4. Any additional current-case source explicitly authorized by the user.
+
+Before retrieval, it must restate the active target firm, fund, vehicle, folder boundary, and as-of date. It must refuse to combine concurrent or historical case folders unless the user explicitly authorizes a comparison workflow.
+
 ACCEPTANCE CHECKS:
 - Validation-driven change log present.
 - Full revised rulebook present.
 - Limitations disclosed.
 - Production handoff withheld until human approval.
+- Production knowledge excludes raw calibration cases.
+- One active target-fund boundary is required for each production run.
 
 ======================================================================
 CORRECTION PROMPT — USE WHEN THE AGENT MOVES TOO FAST
