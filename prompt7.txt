@@ -1,0 +1,680 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2870
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 PROMPT 7 \'97 FINALIZE THE RULEBOOK AND GENERATE THE PRODUCTION-AGENT HANDOFF PACKAGE\
+\
+You have completed the approved calibration workflow, including the control-document review, calibration-case pairing, cross-memo source-to-section evidence mapping, rulebook drafting, and all validation activities that were actually performed.\
+\
+Your role in this prompt is to finalize the methodology and prepare a complete, standalone handoff package for a separate production agent named \'93FM Investment Memo Agent.\'94\
+\
+The current FM Memo Rules Builder is a methodology-development and calibration agent. It is not the production memo-writing agent. Do not draft a new investment memo in this prompt, and do not attempt to create or publish the second agent automatically.\
+\
+The outputs from this prompt will be reviewed by a human and then manually uploaded or pasted into a separately created Microsoft 365 Copilot agent.\
+\
+======================================================================\
+A. VALIDATION-STATUS REQUIREMENT\
+======================================================================\
+\
+First determine the correct validation status based only on work actually performed.\
+\
+Use exactly one of the following statuses:\
+\
+1. VALIDATED \'97 READY FOR HUMAN APPROVAL\
+\
+Use this only if:\
+- an independent held-out historical case was not used during rule development;\
+- the held-out case\'92s source package was used to simulate drafting;\
+- the simulated output was compared against the withheld Approved Final Memo;\
+- factual, structural, sourcing, and drafting discrepancies were evaluated;\
+- necessary rule revisions were incorporated.\
+\
+2. PROVISIONALLY VALIDATED \'97 HELD-OUT CASE VALIDATION PENDING\
+\
+Use this if:\
+- the rules were developed and reviewed using calibration cases;\
+- self-audit or in-sample testing was performed;\
+- but no genuinely independent held-out case was used.\
+\
+3. NOT READY FOR PRODUCTION TESTING\
+\
+Use this if:\
+- material source-access failures remain;\
+- case pairings remain uncertain;\
+- significant cross-fund contamination risks remain unresolved;\
+- major Schema sections lack usable drafting rules;\
+- or the rules cannot be applied without unsupported assumptions.\
+\
+Do not claim that held-out validation occurred unless it actually occurred.\
+\
+The validation status must appear prominently at the beginning of every relevant output file.\
+\
+======================================================================\
+B. GENERAL OUTPUT REQUIREMENTS\
+======================================================================\
+\
+Generate the seven standalone TXT files listed below.\
+\
+If the interface supports creating downloadable TXT files, create seven separately downloadable files using the exact filenames specified below.\
+\
+If downloadable file creation is not supported, output each file in a separate plain-text code block headed by its exact filename.\
+\
+Do not combine all files into a single undifferentiated response.\
+\
+If the complete package is too long for one response:\
+\
+1. First provide the Production Handoff Manifest.\
+2. Then provide File 1 in full.\
+3. Stop at the end of File 1 and write:\
+   \'93Reply CONTINUE FOR FILE 2.\'94\
+4. Continue one complete file at a time.\
+5. Never truncate a file or replace content with phrases such as:\
+   - \'93same as above\'94;\
+   - \'93see prior response\'94;\
+   - \'93content omitted\'94;\
+   - \'93continue similarly\'94;\
+   - or \'93refer to the Schema.\'94\
+\
+Every file must be standalone and understandable without reading the chat history.\
+\
+Do not embed any facts, people, economics, strategy details, or conclusions from Bain Capital Insurance Fund II, Bessemer Century Fund III, or another historical calibration case as permanent production rules.\
+\
+Historical cases may inform general methodology, source priority, formatting, tone, controls, and drafting patterns only.\
+\
+======================================================================\
+C. REQUIRED OUTPUT FILES\
+======================================================================\
+\
+----------------------------------------------------------------------\
+FILE 1\
+----------------------------------------------------------------------\
+\
+Exact filename:\
+\
+LP_Investment_Memo_Section_by_Section_Drafting_Rules_v1.txt\
+\
+Purpose:\
+\
+Create the complete, revised, standalone Section-by-Section Drafting Rules for LP-side institutional investment recommendation memos.\
+\
+The rulebook must be aligned with LP_Investment_Memo_Template_Schema_v1.txt and must contain, at minimum:\
+\
+1. Document purpose and intended users.\
+2. Relationship between:\
+   - the Template Schema;\
+   - the Section-by-Section Drafting Rules;\
+   - current-fund source materials;\
+   - evidence maps;\
+   - draft memos;\
+   - and human approval.\
+3. Global evidence and non-hallucination rules.\
+4. Target-fund isolation rules.\
+5. Source authority hierarchy.\
+6. Source-conflict resolution rules.\
+7. Treatment of:\
+   - documented facts;\
+   - GP representations;\
+   - FM observations;\
+   - LP analysis or inference.\
+8. Missing-information and unsupported-information rules.\
+9. As-of-date and version-control requirements.\
+10. Institutional LP writing tone and style.\
+11. Required section order and formatting.\
+12. Section-by-section rules for every field and section in the Template Schema.\
+\
+For every memo section, specify:\
+\
+- Section purpose.\
+- Required or conditional status.\
+- Expected output structure.\
+- Required fields and subfields.\
+- Preferred source categories.\
+- Alternative source categories.\
+- Source priority.\
+- Retrieval and search guidance.\
+- Evidence requirements.\
+- Required locators.\
+- Permitted transformations and summarization.\
+- Prohibited transformations.\
+- Distinction between fact, GP representation, FM observation, and LP inference.\
+- Conflict-handling rules.\
+- Missing-information behavior.\
+- Inclusion and omission tests.\
+- Recommended length and formatting.\
+- LP-side tone.\
+- Section-level quality-control checks.\
+- Conditions requiring human review.\
+\
+The rulebook must include rules for at least:\
+\
+- Header and Core Identifiers.\
+- Firm Name.\
+- Firm Point of Contact.\
+- Investment Opportunity.\
+- Investment Vehicle Name.\
+- FM Global Investing Entity.\
+- Memo Date and information as-of date.\
+- Onsite Meetings and Subsequent Due Diligence.\
+- Fund Terms Summary.\
+- Firm.\
+- Team.\
+- Key Persons.\
+- Strategy.\
+- Summary of Changes to Strategy, when supported and applicable.\
+- Value Creation.\
+- Investment Process and Decision Making.\
+- Summary of Process Changes, when supported and applicable.\
+- Any other conditional sections defined by the Template Schema.\
+\
+For due-diligence chronology, require a consistent event structure:\
+\
+Date + FM participant(s) + GP or external participant(s) + meeting format or location when supported + meeting purpose + principal topics or outcome.\
+\
+Do not invent participant names, titles, meeting formats, dates, locations, conclusions, or outcomes.\
+\
+For Fund Terms Summary, distinguish:\
+\
+- directly documented legal terms;\
+- commercial summaries;\
+- preliminary or draft terms;\
+- negotiated side-letter terms;\
+- FM calculations;\
+- and LP reasonableness assessments.\
+\
+For optional sections, require evidence of actual relevance. Do not include an optional section merely because it appeared in a historical calibration memo.\
+\
+End File 1 with a final memo-level quality-control checklist.\
+\
+----------------------------------------------------------------------\
+FILE 2\
+----------------------------------------------------------------------\
+\
+Exact filename:\
+\
+FM_Investment_Memo_Agent_Instructions_v1.txt\
+\
+Purpose:\
+\
+Create the complete copy-paste Instructions for the separate production agent named \'93FM Investment Memo Agent.\'94\
+\
+These Instructions must be written directly to the future agent in the second person, for example:\
+\
+\'93You are the FM Investment Memo Agent\'85\'94\
+\
+The Instructions must define:\
+\
+1. ROLE AND PURPOSE\
+\
+The agent supports an institutional LP investment team by drafting evidence-based investment recommendation memos from a current target fund\'92s authorized source package.\
+\
+It assists with research, evidence mapping, drafting, and quality control.\
+\
+It does not make the final investment decision and does not replace human review.\
+\
+2. GOVERNING DOCUMENTS\
+\
+The production agent must use:\
+\
+- LP_Investment_Memo_Template_Schema_v1.txt as the structural contract defining WHAT the memo contains.\
+- LP_Investment_Memo_Section_by_Section_Drafting_Rules_v1.txt as the operating manual defining HOW each section is researched, drafted, evidenced, and reviewed.\
+\
+If the two documents appear inconsistent, the agent must identify the inconsistency and request human direction rather than silently choosing one.\
+\
+3. ACTIVE TARGET-FUND SCOPE LOCK\
+\
+Before retrieving or drafting, the agent must restate:\
+\
+- target firm;\
+- target fund;\
+- target investment opportunity;\
+- target investment vehicle, if known;\
+- authorized SharePoint folder or source-package boundary;\
+- authorized additional files;\
+- and information as-of date.\
+\
+Only one active target fund may be used in a normal production run.\
+\
+The agent must not combine information from:\
+\
+- another fund managed by the same GP;\
+- another vintage;\
+- another vehicle;\
+- another historical calibration case;\
+- another concurrently connected folder;\
+- or general enterprise search results outside the authorized boundary.\
+\
+A comparison workflow requires explicit user authorization.\
+\
+4. SHAREPOINT AND FILE-RETRIEVAL DISCIPLINE\
+\
+The agent must recognize that SharePoint folder knowledge is retrieved semantically and is not necessarily a complete recursive file inventory.\
+\
+The agent must never claim that it reviewed every file merely because a folder was connected.\
+\
+It must distinguish among:\
+\
+- file or folder metadata detected;\
+- filename or link detected;\
+- substantive body text retrieved;\
+- partial text retrieved;\
+- and content not retrieved.\
+\
+A filename, folder name, or link alone is not substantive evidence.\
+\
+For material claims, the agent must retrieve supporting body text and provide an exact filename plus a page, slide, section, table, date, or other locator whenever available.\
+\
+When a folder is large or deeply nested, the agent must use targeted retrieval based on:\
+\
+- target-fund name;\
+- memo section;\
+- expected document type;\
+- known exact filenames;\
+- and the Current Fund Source Package Index, when available.\
+\
+It must clearly disclose when retrieval may be incomplete.\
+\
+5. SOURCE PRIORITIZATION\
+\
+Prioritize relevant current and target-fund-specific materials, including:\
+\
+- clean, current, final, or executed LPA and legal documents;\
+- fund term sheets and legal term summaries;\
+- side letters and negotiated terms, when authorized;\
+- DDQs and due-diligence materials;\
+- PPMs and current fundraising presentations;\
+- team and key-person information;\
+- investment strategy materials;\
+- value-creation materials;\
+- investment-process materials;\
+- FM meeting notes and diligence records;\
+- approved internal current-case materials.\
+\
+Deprioritize or exclude unless specifically required:\
+\
+- redlines;\
+- blacklines;\
+- comparison copies;\
+- obsolete drafts;\
+- duplicate files;\
+- documents for another fund;\
+- unsupported marketing statements;\
+- and files whose body text cannot be retrieved.\
+\
+6. MULTI-FUND DOCUMENTS\
+\
+When a document discusses more than one fund, the agent may use only passages explicitly attributable to the active target fund.\
+\
+It must not transfer terms, team information, strategy, performance, economics, or conclusions between funds.\
+\
+If attribution is unclear, mark the information as ambiguous and require human review.\
+\
+7. EVIDENCE CLASSIFICATION\
+\
+Every material statement must be classified internally as one of:\
+\
+- documented fact;\
+- GP representation;\
+- FM observation;\
+- LP analysis or inference.\
+\
+The drafting language must reflect the classification.\
+\
+GP statements must not be presented as independently verified LP conclusions.\
+\
+LP analysis or inference must be labeled and must identify its evidentiary basis.\
+\
+8. REQUIRED PRODUCTION WORKFLOW\
+\
+Require the agent to work in stages:\
+\
+Stage 1 \'97 Scope Confirmation.\
+Stage 2 \'97 Targeted Source Triage.\
+Stage 3 \'97 Source Access and Body-Retrieval Verification.\
+Stage 4 \'97 Section-by-Section Evidence Map.\
+Stage 5 \'97 Missing, Conflict, and Ambiguity Review.\
+Stage 6 \'97 Memo Drafting.\
+Stage 7 \'97 Evidence and Cross-Fund Contamination Audit.\
+Stage 8 \'97 Human Review and Approval.\
+\
+The agent must not skip directly to drafting when the source boundary or target fund is uncertain.\
+\
+9. DRAFTING REQUIREMENTS\
+\
+Require adherence to:\
+\
+- the approved Schema;\
+- the validated or provisionally validated Drafting Rules;\
+- institutional LP tone;\
+- factual precision;\
+- neutral and concise language;\
+- explicit treatment of risks and uncertainties;\
+- and conditional-section logic.\
+\
+Do not allow invented facts, unsupported conclusions, or silent gap filling.\
+\
+10. OUTPUT REQUIREMENTS\
+\
+The agent must be able to produce:\
+\
+- scope-confirmation report;\
+- source-triage table;\
+- body-retrieval status table;\
+- section evidence map;\
+- missing-information register;\
+- conflict register;\
+- draft memo;\
+- evidence audit;\
+- cross-fund contamination audit;\
+- and human-review checklist.\
+\
+11. HUMAN APPROVAL GATES\
+\
+Require human approval after:\
+\
+- target-fund and source-boundary confirmation;\
+- evidence-map completion;\
+- initial full draft;\
+- and final quality-control review.\
+\
+12. KNOWLEDGE ISOLATION\
+\
+The production agent must not use or remain connected to:\
+\
+- Bain Capital Insurance Fund II calibration materials;\
+- Bessemer Century Fund III calibration materials;\
+- historical Approved Final Memos used for calibration;\
+- historical Source Packages used for calibration;\
+- 05_Calibration_Case_Notes_v1.txt;\
+- Section_by_Section_Drafting_Rules_Authoring_Brief_v1.txt;\
+- Rules Builder intermediate analyses;\
+- or historical evidence maps.\
+\
+These materials belong only to the methodology-development environment.\
+\
+The Instructions must be complete and ready to paste into Microsoft 365 Copilot Agent Builder, subject to human approval.\
+\
+----------------------------------------------------------------------\
+FILE 3\
+----------------------------------------------------------------------\
+\
+Exact filename:\
+\
+FM_Investment_Memo_Agent_Knowledge_Setup_v1.txt\
+\
+Purpose:\
+\
+Explain exactly how to configure Knowledge for the production FM Investment Memo Agent.\
+\
+Separate Knowledge into:\
+\
+A. PERSISTENT GOVERNING KNOWLEDGE\
+\
+Include only:\
+\
+- LP_Investment_Memo_Template_Schema_v1.txt\
+- LP_Investment_Memo_Section_by_Section_Drafting_Rules_v1.txt\
+- any separately approved general FM style or policy document\
+\
+B. CURRENT-CASE KNOWLEDGE\
+\
+For each production run, include only:\
+\
+- one authorized current target-fund folder;\
+- current target-fund source documents;\
+- current target-fund meeting notes;\
+- current target-fund internal documents expressly authorized by the user;\
+- and the Current Fund Source Package Index, when available.\
+\
+C. PROHIBITED PRODUCTION KNOWLEDGE\
+\
+Exclude:\
+\
+- raw historical calibration folders;\
+- calibration Approved Final Memos;\
+- calibration Source Packages;\
+- Calibration Case Notes;\
+- the Rules Authoring Brief;\
+- Rules Builder test logs;\
+- Rules Builder evidence maps;\
+- and unrelated current funds.\
+\
+D. RETRIEVAL-RELIABILITY GUIDANCE\
+\
+Explain that connecting a SharePoint folder does not guarantee complete recursive review.\
+\
+Recommend:\
+\
+- attaching the most important files individually;\
+- using exact, descriptive filenames;\
+- directly uploading critical control documents and critical final documents when appropriate;\
+- creating a Current Fund Source Package Index;\
+- splitting or summarizing unusually long files when permitted;\
+- using searchable text rather than image-only scans when possible;\
+- checking permissions, sensitivity labels, and content-extraction restrictions;\
+- verifying substantive body retrieval before relying on a file;\
+- and separating current, final, executed, draft, duplicate, redline, and obsolete documents.\
+\
+Provide:\
+\
+- a pre-run setup checklist;\
+- a per-fund folder-replacement checklist;\
+- a post-run cleanup checklist;\
+- and a knowledge-isolation checklist.\
+\
+----------------------------------------------------------------------\
+FILE 4\
+----------------------------------------------------------------------\
+\
+Exact filename:\
+\
+FM_Investment_Memo_Agent_Test_and_Starter_Prompts_v1.txt\
+\
+Purpose:\
+\
+Create a sequential test and operating prompt suite for the production agent.\
+\
+Include at least:\
+\
+PROMPT 0 \'97 Confirm governing-document understanding.\
+PROMPT 1 \'97 Confirm active target fund and source boundary.\
+PROMPT 2 \'97 Perform targeted source triage.\
+PROMPT 3 \'97 Verify substantive body retrieval.\
+PROMPT 4 \'97 Build the section-by-section evidence map.\
+PROMPT 5 \'97 Report missing, conflicting, ambiguous, or unsupported information.\
+PROMPT 6 \'97 Draft the memo.\
+PROMPT 7 \'97 Perform evidence and citation audit.\
+PROMPT 8 \'97 Perform cross-fund contamination audit.\
+PROMPT 9 \'97 Produce the human-review version.\
+PROMPT 10 \'97 Revise after human comments without introducing unsupported information.\
+\
+For each prompt provide:\
+\
+- exact copy-paste prompt text;\
+- expected output;\
+- acceptance checks;\
+- stop conditions;\
+- and correction prompt when the agent moves too quickly.\
+\
+Also include short starter prompts suitable for the Agent Builder user interface.\
+\
+The test suite must require the agent to stop for human approval at the appropriate gates.\
+\
+----------------------------------------------------------------------\
+FILE 5\
+----------------------------------------------------------------------\
+\
+Exact filename:\
+\
+FM_Memo_Rules_Validation_Report_v1.txt\
+\
+Purpose:\
+\
+Create an accurate validation and limitations report for the Rules Builder work.\
+\
+Include:\
+\
+- validation status;\
+- control documents used;\
+- development cases used;\
+- whether a genuine held-out case was used;\
+- source-access limitations encountered;\
+- memo-access limitations encountered;\
+- validation procedures actually performed;\
+- results by memo section;\
+- factual-support findings;\
+- cross-fund contamination findings;\
+- optional-section findings;\
+- tone and formatting findings;\
+- identified rule weaknesses;\
+- revisions made;\
+- unresolved limitations;\
+- sections requiring higher human scrutiny;\
+- recommended next validation case;\
+- and final readiness recommendation.\
+\
+Do not imply that similarity to an Approved Final Memo proves factual accuracy.\
+\
+Evaluate separately:\
+\
+- factual support;\
+- retrieval completeness;\
+- source authority;\
+- structural compliance;\
+- drafting quality;\
+- optional-section decisions;\
+- and cross-fund isolation.\
+\
+If no independent held-out case was used, clearly state:\
+\
+\'93PROVISIONALLY VALIDATED \'97 HELD-OUT CASE VALIDATION PENDING.\'94\
+\
+----------------------------------------------------------------------\
+FILE 6\
+----------------------------------------------------------------------\
+\
+Exact filename:\
+\
+Current_Fund_Source_Package_Index_Template_v1.txt\
+\
+Purpose:\
+\
+Create a reusable plain-text index template to place at the top level of each future target-fund folder.\
+\
+Include fields for:\
+\
+- Target Firm.\
+- Target Fund.\
+- Investment Opportunity.\
+- Investment Vehicle.\
+- Authorized SharePoint Folder.\
+- Information As-of Date.\
+- Prepared By.\
+- Last Updated.\
+\
+Include structured sections for:\
+\
+- Approved Current-Case Internal Documents.\
+- Legal and LPA Documents.\
+- Fund Terms and Term Summaries.\
+- DDQ and Due-Diligence Documents.\
+- PPMs and Fundraising Materials.\
+- Strategy Documents.\
+- Team and Key-Person Documents.\
+- Value-Creation Documents.\
+- Investment-Process Documents.\
+- Meeting Notes and Due-Diligence Chronology.\
+- FM Internal Analysis.\
+- Other Supporting Documents.\
+- Mixed-Fund Documents.\
+- Missing Expected Documents.\
+- Excluded or Deprioritized Documents.\
+- Drafts, Duplicates, Redlines, and Obsolete Versions.\
+\
+For every document entry, provide fields for:\
+\
+- Exact filename.\
+- Document type.\
+- Relevant target fund.\
+- Document date.\
+- Version status.\
+- SharePoint location or direct link.\
+- Intended memo section or fields.\
+- Authority level.\
+- Body-text retrieval verified: Yes / No / Partial.\
+- Known limitations.\
+- Human notes.\
+\
+The template must be generic and must not contain Bain, Bessemer, or another historical fund as an example.\
+\
+----------------------------------------------------------------------\
+FILE 7\
+----------------------------------------------------------------------\
+\
+Exact filename:\
+\
+FM_Investment_Memo_Agent_Production_Handoff_README_v1.txt\
+\
+Purpose:\
+\
+Provide a concise implementation guide for the human building the second Microsoft 365 Copilot agent.\
+\
+Include:\
+\
+1. What the Rules Builder produced.\
+2. What the production agent is intended to do.\
+3. Exact proposed agent name:\
+   FM Investment Memo Agent\
+4. Proposed one-sentence agent description.\
+5. Which file to paste into the Instructions field.\
+6. Which files to upload as persistent Knowledge.\
+7. Which current-case sources to add for each production run.\
+8. Which calibration materials must not be uploaded.\
+9. Recommended Agent Builder settings.\
+10. Recommended first test sequence.\
+11. Human approval gates.\
+12. How to replace one target fund with the next target fund.\
+13. How to record failures and update the rulebook.\
+14. Version-control recommendations.\
+15. Production-readiness status and limitations.\
+\
+Clearly state:\
+\
+\'93The Rules Builder does not automatically create or publish the FM Investment Memo Agent. A human must create and configure the production agent using this handoff package.\'94\
+\
+======================================================================\
+D. FINAL QUALITY CONTROLS\
+======================================================================\
+\
+Before delivering the files, perform a final package-level audit.\
+\
+Confirm that:\
+\
+- Every file is standalone.\
+- The Template Schema defines WHAT.\
+- The finalized Drafting Rules define HOW.\
+- The production Instructions operationalize both documents.\
+- No historical case facts have been hardcoded.\
+- No historical calibration source remains part of production Knowledge.\
+- Only one active target fund is allowed per normal production run.\
+- SharePoint folder access is not described as guaranteed complete inventory.\
+- Metadata detection is distinguished from substantive body retrieval.\
+- Exact source filenames and locators are required for material claims.\
+- Missing information is disclosed rather than invented.\
+- Optional sections require evidence of applicability.\
+- GP representations are not presented as verified LP conclusions.\
+- LP analysis or inference is identified as such.\
+- Human approval gates are present.\
+- The stated validation status is accurate.\
+- No file claims production readiness beyond the evidence actually available.\
+\
+Begin your response with a Production Handoff Manifest listing:\
+\
+- all seven exact filenames;\
+- the purpose of each file;\
+- the validation status;\
+- and whether each file is ready for human review.\
+\
+Then generate the files according to the delivery protocol above.}
