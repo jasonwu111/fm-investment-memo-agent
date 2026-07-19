@@ -1,0 +1,280 @@
+FM MEMO RULES BUILDER — MODULAR TEST PROMPTS v2
+
+HOW TO USE THESE PROMPTS
+
+These prompts test different Builder capabilities. They may be run in sequence for a full calibration cycle or individually when their prerequisites are already satisfied.
+
+Do not treat a polished response as proof of success. Verify access, source scope, evidence traceability, target-fund control, and whether the output follows the current Schema V3 and Drafting Rules V3.
+
+The Builder may divide a large task into manageable sections. It should state what it reviewed and should not claim complete-corpus validation when only a targeted sample was tested.
+
+======================================================================
+PROMPT 0 — CONTROL-FILE AND ROLE CHECK
+======================================================================
+
+Read the three current control files:
+
+- LP_Investment_Memo_Template_Schema_v3.txt
+- Section_by_Section_Drafting_Rules_v3.txt
+- 05_Calibration_Case_Notes_v2.txt
+
+Briefly explain:
+
+1. What each file controls.
+2. The difference between WHAT the memo covers and HOW it is drafted.
+3. How calibration cases may and may not be used.
+4. Your role as the Rules Builder versus the role of a production memo writer.
+5. Which files you can access and any file still unavailable or preparing.
+
+Do not draft a memo or propose rule changes in this response.
+
+PASS SIGNALS
+
+- Schema = content and adaptable organization.
+- Drafting Rules = retrieval, evidence, drafting, and QA method.
+- Calibration Notes = case manifest and boundaries.
+- Historical facts may not transfer to a new fund.
+- Access status is explicit.
+
+======================================================================
+PROMPT 1 — TARGET IDENTITY AND RAPID SOURCE TRIAGE
+======================================================================
+
+For the calibration case or cases I identify, perform an initial target-identity and source-triage test.
+
+For each selected case:
+
+1. Build a Target Identity Card using only accessible case evidence.
+2. Confirm the proposed approved-final-memo / Source Package relationship, if the case is intended to be paired.
+3. Inventory the immediate folder structure and filenames before deep reading.
+4. Classify likely files by target-fund relevance, document type, date, and version status.
+5. Identify the highest-priority candidate files for:
+   - Core identifiers and Fund Terms.
+   - Firm and platform context.
+   - Team, Governance, and Key Persons.
+   - Strategy.
+   - Value Creation.
+   - Investment Process.
+6. Identify files initially deprioritized as redline/right line, blackline, comparison, marked, changes, duplicate, obsolete, unrelated, or ambiguous.
+7. Open a small sample of high-priority files to demonstrate that filename routing is being verified against document content.
+
+Return a concise Source Triage Report. Do not attempt a full memo draft.
+
+PASS SIGNALS
+
+- Correct target-fund boundary.
+- File-name routing is efficient but not treated as evidence.
+- Clean/current/final/executed versions are preferred.
+- Comparison files are not used as final without justification.
+- Multi-fund and ambiguous documents are flagged.
+- The response does not overclaim complete review.
+
+======================================================================
+PROMPT 2 — TARGETED REVERSE-MAPPING TEST
+======================================================================
+
+Select the memo section or sections I specify from an approved paired calibration case. Reverse-map the approved output to the Source Package.
+
+For each material statement or table row:
+
+- Break the output into component facts, GP representations, FM observations, calculations, and LP assessments.
+- Locate the strongest supporting source and useful locator.
+- Confirm the source applies to the target fund, vehicle, and period.
+- Describe how the source was transformed or summarized in the memo.
+- Identify conflicts, missing support, or statements not traced after a reasonable coverage sweep.
+- Distinguish a reusable retrieval / drafting pattern from a case-specific fact.
+
+Use the approved memo to identify expected output, not as a substitute source for the underlying fact.
+
+If the selected section is large, work in logical chunks and label the coverage completed.
+
+PASS SIGNALS
+
+- Material output is decomposed and source-mapped.
+- Fund scope and authority are checked.
+- GP claims and LP assessments are not treated as facts.
+- Untraced content is labeled accurately.
+- Findings do not become general rules from one example alone.
+
+======================================================================
+PROMPT 3 — CROSS-CASE PATTERN AND VARIANT TEST
+======================================================================
+
+Using the approved calibration cases and only the material accessible for each, compare the selected memo modules against Schema V3 and Drafting Rules V3.
+
+Classify each observation as:
+
+1. Reusable common practice.
+2. Strategy- or structure-specific variant.
+3. Flexible presentation choice.
+4. Case-specific fact that must not enter the reusable methodology.
+5. Potential gap or over-constraint in the current control documents.
+6. Uncertain because the source package or pairing is incomplete.
+
+Pay particular attention to:
+
+- Separate versus combined headings.
+- Different Due Diligence chronology formats.
+- Dynamic Fund Terms rows and class / vehicle differences.
+- Firm versus dedicated-team context.
+- Team, Governance, and Key Person placement.
+- Strategy presentation by fund type.
+- Standalone versus integrated Value Creation.
+- Chronological, workstream, or governance-focused Investment Process.
+- Optional changes and LP takeaway sections.
+
+Return a Cross-Case Pattern Matrix and a short list of potential methodology changes. Do not revise the control documents yet unless I request it.
+
+PASS SIGNALS
+
+- Commonality and variation are both captured.
+- Differences are not automatically treated as errors.
+- No case-specific hard coding enters the proposed method.
+- Potential changes identify the evidence and scope.
+
+======================================================================
+PROMPT 4 — PROPOSE CONTROL-DOCUMENT CHANGES
+======================================================================
+
+Based on the approved reverse-mapping and cross-case findings, evaluate whether Schema V3 or Drafting Rules V3 should change.
+
+For each proposed change, provide:
+
+- Affected control document and section.
+- Current requirement or guidance.
+- Observed problem.
+- Supporting cases and source evidence.
+- Proposed replacement or addition.
+- Classification: general, conditional, strategy-specific, presentation option, or example only.
+- Expected benefit.
+- Risk that the change may be too rigid or too loose.
+- Suggested validation test.
+
+Prefer the smallest evidence-supported change. Preserve flexibility when a presentation difference does not create a factual, legal, analytical, or review risk.
+
+Also list observations that should NOT change the methodology and explain why.
+
+PASS SIGNALS
+
+- Changes are evidence-based and scoped.
+- The response distinguishes content requirements from presentation choices.
+- Risks of overfitting are considered.
+- Non-changes are documented.
+
+======================================================================
+PROMPT 5 — REVISE THE CONTROL DOCUMENTS
+======================================================================
+
+Apply only the methodology changes I approve.
+
+Return:
+
+1. A concise change log.
+2. The complete revised Schema, if Schema changes were approved.
+3. The complete revised Drafting Rules, if Drafting Rules changes were approved.
+4. Cross-reference checks showing that the two documents remain aligned.
+5. Open questions and limitations.
+
+Keep the methodology reusable across future firms, funds, strategies, vehicles, classes, and folder structures. Do not insert calibration-case names, URLs, people, terms, or conclusions as operative future-fund rules. Anonymize examples when needed.
+
+Do not call the revision validated merely because it has been drafted.
+
+PASS SIGNALS
+
+- Only approved changes are applied.
+- Schema and Drafting Rules remain consistent.
+- Reusable rules remain fund-neutral.
+- Change log is traceable.
+
+======================================================================
+PROMPT 6 — VALIDATION TEST
+======================================================================
+
+Validate the revised methodology using the case, section, or held-out package I designate.
+
+If this is a held-out validation:
+
+1. Do not use the approved final memo while building the simulated evidence map or draft.
+2. Use only the revised controls and authorized Source Package.
+3. Build the Target Identity Card, source triage, and evidence map.
+4. Draft the selected memo modules.
+5. Reveal and compare with the approved final memo only after the simulated output is complete.
+
+If this is a non-held-out regression test, state that limitation clearly.
+
+Classify discrepancies as applicable:
+
+- Access or retrieval limitation.
+- Wrong target or source selected.
+- Extraction error.
+- Summarization or organization error.
+- Attribution error.
+- Unsupported inference.
+- Cross-fund contamination.
+- Missing expected content.
+- Incorrect conditional-section decision.
+- Terms / class / vehicle error.
+- Tone or formatting difference.
+- Acceptable presentation variation.
+
+Explain the root cause and whether it requires a methodology change, a source-access fix, or human judgment.
+
+PASS SIGNALS
+
+- Validation type and scope are explicit.
+- Facts and presentation similarity are evaluated separately.
+- Acceptable variation is not mislabeled as failure.
+- Tool or access problems are not disguised as rule success.
+- Proposed fixes address root causes.
+
+======================================================================
+PROMPT 7 — FINAL CALIBRATION PACKAGE
+======================================================================
+
+Prepare the current calibration handoff package based on the work actually completed.
+
+Return, as separate clearly labeled text deliverables where the interface permits:
+
+1. Current Schema.
+2. Current Section-by-Section Drafting Rules.
+3. Change Log.
+4. Validation Summary.
+5. Known Limitations and Open Human Decisions.
+6. Recommended next test.
+
+State one of:
+
+- Ready for human review for limited production testing.
+- Additional validation recommended before production testing.
+- Not ready because of the listed material blockers.
+
+Do not claim formal approval. Do not include raw calibration memos or Source Packages in a production-agent knowledge recommendation.
+
+If asked to propose a production-agent configuration, reference the approved Schema and Drafting Rules as the reusable controls and require one explicitly selected current target-fund source boundary per run.
+
+PASS SIGNALS
+
+- Deliverables are complete for the actual scope performed.
+- Limitations are candid.
+- Raw calibration cases remain isolated from production.
+- Human approval is not assumed.
+
+======================================================================
+FOCUSED CORRECTION PROMPTS
+======================================================================
+
+USE WHEN THE BUILDER OVERFITS AN EXAMPLE
+
+Reassess the proposed rule. Separate the observed historical presentation from the reusable investment question. Preserve the pattern as an option unless multiple cases or a material control risk justify making it mandatory.
+
+USE WHEN THE BUILDER CANNOT FIND A SOURCE
+
+Do not conclude that the source does not exist based on one retrieval attempt. Revisit the file inventory, target-fund aliases, likely source families, dates, and high-priority filenames. Report the scope searched and use “not traced in the reviewed materials” if the coverage remains incomplete.
+
+USE WHEN THE BUILDER MIXES FUNDS
+
+Stop the affected analysis. Rebuild the Target Identity Card, reclassify every cited source by fund / vehicle relevance, remove contaminated statements, and rerun the section-level evidence map.
+
+USE WHEN THE BUILDER IS TOO RIGID
+
+Rewrite the proposal as a content objective, inclusion trigger, source control, or quality check. Do not prescribe one heading, sentence pattern, or paragraph structure unless the approved house format or a material control requires it.

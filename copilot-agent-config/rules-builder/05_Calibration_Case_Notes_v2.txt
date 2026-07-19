@@ -1,0 +1,196 @@
+FM MEMO RULES BUILDER — CALIBRATION CASE NOTES v2
+
+PURPOSE
+
+This file is the calibration-case manifest and boundary guide for the FM Memo Rules Builder. It identifies how approved historical memos and source packages may be used to test and improve the reusable Schema and Drafting Rules.
+
+It is not an authoritative source for fund facts. It does not replace the underlying final memos, Source Packages, or current control documents.
+
+CURRENT CONTROL DOCUMENTS
+
+- LP_Investment_Memo_Template_Schema_v3.txt
+- Section_by_Section_Drafting_Rules_v3.txt
+- 01_FM_Memo_Rules_Builder_Instructions_v2.txt
+
+CALIBRATION-ONLY RESTRICTION
+
+Historical final memos and Source Packages are for authorized methodology calibration and validation only. They must not be treated as factual knowledge for a future fund and should not remain attached to a production memo-writing agent.
+
+Transfer into production only the human-approved reusable Schema, Drafting Rules, production instructions, and the one current target-fund source boundary selected for that run.
+
+CASE TYPES
+
+1. Paired calibration case:
+   - Includes an approved final memo and corresponding Source Package.
+   - May be used for structure, tone, source retrieval, evidence mapping, and transformation analysis.
+
+2. Memo-only reference case:
+   - Includes an approved final memo but no confirmed corresponding Source Package in the calibration environment.
+   - May be used for structure, presentation, section placement, and tone.
+   - Must not be used to infer source hierarchy or claim that a final statement came from a particular source type.
+
+3. Held-out validation case:
+   - Must be explicitly designated by the user.
+   - Its final memo remains unavailable to the simulated drafting step until the evidence map or draft is complete.
+
+No case is held out automatically.
+
+PAIRED CALIBRATION CASE 01
+
+SharePoint Folder Name:
+Bain Capital Insurance Fund II
+
+Target Opportunity:
+Bain Capital Insurance Fund II
+
+Expected High-Level Structure:
+
+- Approved Final Memo.
+- Source Package.
+
+Use:
+
+- Validate target identity and legal / economic terms.
+- Reverse-map Firm, dedicated vertical Team, Governance, Key Persons, Strategy, Value Creation, and Investment Process when corresponding sources are accessible.
+- Observe class- or option-specific economics and specialized-strategy presentation without turning case facts into universal requirements.
+
+Package Note:
+
+The Source Package may contain fewer documents than another case. Package size does not indicate authority, completeness, or whether a fact should exist. Use the available high-priority sources and describe the scope actually reviewed.
+
+Boundary:
+
+Use fund-specific information only when it clearly applies to the target opportunity. Classify other funds, predecessor funds, parallel vehicles, comparison funds, and mixed-fund documents separately.
+
+PAIRED CALIBRATION CASE 02
+
+SharePoint Folder Name:
+Bessemer Century Fund III
+
+Target Opportunity:
+Bessemer Century Fund III
+
+Expected High-Level Structure:
+
+- Approved Final Memo.
+- Source Package.
+
+Use:
+
+- Validate target identity in a multi-fund or related-strategy environment.
+- Reverse-map Fund Terms, platform / strategy-series context, Team, committee governance, Key Persons, Strategy, allocation mechanics, Value-Add, and Investment Process when corresponding sources are accessible.
+- Observe venture / growth and multi-strategy presentation variants without making them mandatory for unrelated funds.
+
+Package Note:
+
+The Source Package may be extensive and may contain documents discussing more than one fund. Greater volume does not change the target boundary. Verify the relevant passage, vehicle, fund number, and context before using a statement.
+
+Boundary:
+
+Classify predecessor, flagship, comparison, parallel, and other related funds separately. From mixed documents, extract only passages clearly attributable to the target and flag boundary cases or ambiguity.
+
+MEMO-ONLY REFERENCE 03
+
+Reference Opportunity:
+BC Partners Fund XII
+
+Expected Material:
+
+- Approved final memo or approved memo images / document.
+- No paired Source Package is assumed under this manifest unless the user later connects and verifies one.
+
+Permitted Use:
+
+- Observe the recurring opening fields, diligence chronology, Fund Terms format, Firm, Team, Key Persons, Strategy, strategy / process changes, Value Creation, and governance presentation.
+- Compare section organization, analytical depth, optional sections, and use of examples.
+
+Limitation:
+
+Do not infer where a statement was sourced or use this reference alone to create a retrieval rule.
+
+MEMO-ONLY REFERENCE 04
+
+Reference Opportunity:
+H.I.G. Europe Middle Market Fund II
+
+Expected Material:
+
+- Approved final memo or approved memo images / document.
+- No paired Source Package is assumed under this manifest unless the user later connects and verifies one.
+
+Permitted Use:
+
+- Observe the recurring opening fields, narrative diligence chronology, Fund Terms, Investment Manager / Firm / Team organization, biographies and tables, Strategy, Value-Add, and Investment Process presentation.
+- Compare specialized, regional, or market-segment strategy presentation and flexible content placement.
+
+Limitation:
+
+Do not infer where a statement was sourced or use this reference alone to create a retrieval rule.
+
+PAIRING RULE FOR PAIRED CASES
+
+The Approved Final Memo and Source Package within the same attached calibration folder form a proposed pair. Verify the pairing through fund identity, content, dates, and folder context before reverse mapping. If evidence contradicts the proposed pairing, hold the affected analysis and request clarification.
+
+TARGET IDENTITY REQUIREMENT
+
+Before extracting or reverse mapping a paired case, establish:
+
+- Firm.
+- Target opportunity.
+- Strategy and vintage.
+- Commercial fund name.
+- Legal investment vehicle, when available.
+- Related and predecessor funds.
+- Source Package boundary.
+
+Do not assume that the recommendation title, economic opportunity, legal fund name, GP entity, and FM investment vehicle are identical.
+
+SOURCE-PACKAGE TRIAGE GUIDANCE
+
+First scan folder names, filenames, dates, versions, and target-fund references. Use these as routing clues and verify content before using facts.
+
+Initial priorities, adapted to actual naming:
+
+1. Legal folders and clean/current term summaries or term sheets.
+2. Clean/current/final/executed LPA and governing documents.
+3. Team info, team structure, organization charts, rosters, biographies, and Key Person materials.
+4. DDQ, due-diligence files, meeting materials, and FM notes.
+5. PPM, fundraising decks, portfolio construction, strategy, track-record, and value-creation materials.
+6. Other files needed to close a gap or resolve a conflict.
+
+Deprioritize files labeled redline, right line, blackline, comparison, compare, marked, markup, track changes, changes, or diff when a clean/current/final/executed version is available. Use comparison files when analyzing changes, when no clean version exists, or when resolving a material conflict; record the limitation.
+
+Filename matches are not evidence. Confirm the target fund, vehicle, class, date, version, and relevant content passage.
+
+REVERSE-MAPPING RULE
+
+For a paired case, the approved memo may identify the expected output or a topic to investigate. The underlying Source Package must support the reverse-mapped evidence. If support is not located after a reasonable coverage sweep, label the statement `not traced in the reviewed materials` and describe the search scope.
+
+Do not infer that every approved-memo statement must be present in the currently connected package; historical writers may have had access to other records.
+
+GENERALIZATION RULE
+
+For every observation, classify it as:
+
+- Reusable common practice.
+- Strategy- or structure-specific variant.
+- Flexible presentation choice.
+- Case-specific fact.
+- Potential methodology gap.
+- Uncertain due to incomplete evidence.
+
+Only the first three categories may ordinarily influence reusable methodology, and strategy-specific variants must retain an appropriate inclusion trigger.
+
+SENSITIVE-INFORMATION HANDLING
+
+- Keep calibration materials within authorized case and account boundaries.
+- Do not use public web or unrelated external sources unless the user explicitly authorizes them.
+- Do not publish, externally share, or place raw case materials into production knowledge.
+- Reusable methodology outputs should avoid unnecessary reproduction of case-specific people, terms, figures, or conclusions.
+
+CURRENT LIMITATIONS
+
+- The two memo-only references support structural calibration but not source-retrieval validation.
+- Availability and retrievability of SharePoint files must be confirmed during each test.
+- No case is currently designated as held-out by this manifest.
+- Additional approved memo / Source Package pairs may reveal new durable patterns and should be added without forcing them into the existing four presentation families.
