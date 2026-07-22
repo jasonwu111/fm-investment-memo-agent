@@ -1,0 +1,85 @@
+STANDARD USER PROMPT TEMPLATE
+
+Please draft the "Key Persons" section for an LP investment memo.
+
+Target Fund: [insert fund name]
+GP / Firm: [insert firm name if known; otherwise infer from sources]
+Source Materials: Use the attached knowledge base / shared folder.
+
+Please first determine the fund's strategy, asset class, geography, and relevant platform from the source materials. Then identify the senior people who map most directly to this specific fund or strategy. Do not include broader firmwide leaders, flagship fund leaders, adjacent strategy leaders, or junior team members unless the sources clearly indicate they are relevant to this target fund.
+
+Before drafting, cross-check the identified people against other team biography, DDQ, PPM, appendix, legal, overview, and profile materials to make sure each person's biography is as complete as the sources allow.
+
+Output the final section under the heading "Key Persons," with one concise paragraph per person in LP investment memo style.
+
+
+TWO-STEP WORKFLOW FOR TESTING OR COMPLEX SOURCE FOLDERS
+
+Use this workflow when testing the agent with Bain Capital Insurance Fund II or Bessemer Century Fund III, or whenever a source folder contains multiple funds, strategies, regions, platforms, or team lists.
+
+
+PROMPT 1 - SELECTION AUDIT ONLY
+
+Please do not draft the final "Key Persons" section yet.
+
+First, review the attached source materials and prepare a selection audit for the target fund.
+
+Target Fund: [insert fund name]
+GP / Firm: [insert firm name if known; otherwise infer from sources]
+Source Materials: Use the attached knowledge base / shared folder.
+
+Please identify:
+1. The fund's strategy, asset class, geography, and relevant platform based on the source materials.
+2. The senior people who appear most directly mapped to this target fund or strategy.
+3. The evidence supporting each person's inclusion.
+4. The source document or section supporting each selected person.
+5. Any senior people who appear in the materials but should be excluded because they relate to another fund, another strategy, broader firmwide leadership, or a lower level of seniority.
+6. Any uncertainty or missing information.
+
+Please use a concise table if possible. Do not write the final memo section yet.
+
+
+PROMPT 2 - FINAL DRAFT AFTER AUDIT
+
+Based on the selection audit above, please draft the final "Key Persons" section.
+
+Blind Validation Rule:
+For this test, do not use any approved final Key Persons section, final memo output, or prior completed memo for the same target fund. Use approved examples only when they relate to a different fund. The approved examples may guide tone, structure, length, and level of detail, but must not be used to identify people, copy facts, or reproduce wording for the current target fund.
+
+If you encounter an approved final memo or completed Key Persons section for the same target fund, ignore it for selection and drafting. Base the selected people only on primary source materials such as fund overviews, PPMs, DDQs, legal documents, team biographies, investment committee materials, and GP profiles.
+
+Write in concise LP investment memo style. Use one paragraph per person. Begin each paragraph with the person's name in bold, followed by a hyphen. Include current role, relevance to the target fund or strategy, prior experience, and education if available. Do not invent facts or use promotional language.
+
+
+STYLE / EXAMPLE CALIBRATION PROMPT
+
+Use the approved memo examples in the knowledge base, including "Bain Capital Insurance Fund II" and "Bessemer Century Fund III," only as style and format references for the Key Persons section.
+
+Do not copy or reuse the people, facts, or fund-specific content from those examples unless the current target fund is the same. Learn from their structure, tone, level of detail, and paragraph style:
+- Heading: "Key Persons"
+- One paragraph per person
+- Person's name at the beginning
+- Current role and relevance to the fund first
+- Prior experience next
+- Education at the end when available
+- Concise LP memo tone
+- No marketing language
+- Focus on the most senior fund-relevant people only
+
+For validation tests, never use the approved example for the same target fund. For example:
+- To test Bessemer Century Fund III, use Bessemer source materials plus Bain Capital Insurance Fund II as the style reference. Do not use the Bessemer approved final Key Persons section.
+- To test Bain Capital Insurance Fund II, use Bain source materials plus Bessemer Century Fund III as the style reference. Do not use the Bain approved final Key Persons section.
+
+
+SUGGESTED VALIDATION PROMPT
+
+Please review the drafted "Key Persons" section against the source materials and the approved memo examples.
+
+Check the following:
+1. Are the selected people mapped to the target fund, strategy, platform, geography, or investment committee rather than only to the broader GP?
+2. Did the draft exclude junior or less relevant team members unless clearly justified by the sources?
+3. Did the draft use the most complete available biography information, rather than relying only on the first mention of each person?
+4. Is the tone consistent with the approved LP investment memo examples?
+5. Are any facts unsupported, overstated, or missing citations from the source materials?
+
+If revisions are needed, provide a corrected final "Key Persons" section.
