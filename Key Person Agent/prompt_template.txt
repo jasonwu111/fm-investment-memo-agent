@@ -1,16 +1,31 @@
-STANDARD USER PROMPT TEMPLATE
+FINAL STANDARD USER PROMPT TEMPLATE
 
 Please draft the "Key Persons" section for an LP investment memo.
 
 Target Fund: [insert fund name]
 GP / Firm: [insert firm name if known; otherwise infer from sources]
 Source Materials: Use the attached knowledge base / shared folder.
+Output Format: Please provide the final section as a Word document if available. Keep any selection audit or notes separate from the final memo-ready section.
 
 Please first determine the fund's strategy, asset class, geography, and relevant platform from the source materials. Then identify the senior people who map most directly to this specific fund or strategy. Do not include broader firmwide leaders, flagship fund leaders, adjacent strategy leaders, or junior team members unless the sources clearly indicate they are relevant to this target fund.
 
 Before drafting, cross-check the identified people against other team biography, DDQ, PPM, appendix, legal, overview, and profile materials to make sure each person's biography is as complete as the sources allow.
 
-Output the final section under the heading "Key Persons," with one concise paragraph per person in LP investment memo style.
+Write from an LP due diligence perspective. The goal is to help assess whether the relevant GP team is experienced, credible, specialized, and properly matched to the target fund's strategy. For each person, focus on current role, fund-specific relevance, responsibilities, relevant accomplishments at the GP, directly relevant prior experience, and education if available. Avoid generic biography details that do not help evaluate the person's ability to execute the fund strategy.
+
+Output the final section under the heading "Key Persons," with one concise paragraph per person in polished LP due diligence memo style.
+
+
+SHORT REUSABLE PROMPT
+
+Please draft the "Key Persons" section for an LP due diligence investment memo.
+
+Target Fund: [insert fund name]
+GP / Firm: [insert firm name if known]
+Source Materials: Use the attached knowledge base / shared folder.
+Output Format: Word document if available.
+
+Please infer the fund's strategy and map the selected people specifically to this target fund. Focus on the most senior fund-relevant people only. Write one memo-ready paragraph per person, emphasizing current role, fund-specific relevance, responsibilities, relevant accomplishments at the GP, directly relevant prior experience, and education if available. Do not invent facts, do not use generic marketing language, and keep any audit or notes separate from the final section.
 
 
 TWO-STEP WORKFLOW FOR TESTING OR COMPLEX SOURCE FOLDERS
