@@ -1,0 +1,68 @@
+FINAL STANDARD USER PROMPT TEMPLATE
+
+Please prepare the "Fund Terms Summary" section for an LP investment due diligence memo.
+
+Target Fund: [insert exact fund name]
+GP / Firm: [insert firm name if known; otherwise infer from the sources]
+Relevant Investor Class / Vehicle: [insert class, feeder, or vehicle if applicable; otherwise determine from the sources]
+Source Materials: Use the attached knowledge base / shared folder.
+Output Format: Word document if available.
+
+Please begin with the Legal Documents folder and identify the most current and controlling documents for the target fund, including any LPA, PPM, term sheet, amendments, or supplements.
+
+Extract the fund-specific terms and map them into the standard two-column "Fund Terms Summary" table defined in your instructions. Make sure every term applies to this exact fund and relevant investor class. Do not use terms from predecessor funds, parallel vehicles, other strategies, or unrelated investor classes.
+
+Cross-check all material percentages, dates, thresholds, calculation bases, extension rights, approval requirements, exceptions, and class-specific economics. Check definitions, schedules, appendices, amendments, and later sections of the documents before finalizing each material term.
+
+If a term is relevant but not disclosed, label it "Not disclosed in the reviewed materials" rather than estimating it. Use "None" only if a source affirmatively states that none applies.
+
+Please provide:
+
+1. A final memo-ready Fund Terms Summary table.
+2. A separate short review note listing unresolved source conflicts, missing material terms, or provisions requiring manual confirmation.
+
+Do not place the review note inside the final memo table.
+
+
+SHORT REUSABLE PROMPT
+
+Please prepare the "Fund Terms Summary" for the following LP investment memo:
+
+Target Fund: [insert fund name]
+GP / Firm: [insert firm name if known]
+Investor Class / Vehicle: [insert if applicable]
+Sources: Use the attached knowledge base / shared folder.
+Output: Word document if available.
+
+Start with the Legal Documents folder and use the most current controlling LPA, PPM, term sheet, amendments, and supplements. Map the terms into the standard table in your instructions.
+
+Confirm that every term applies to this exact fund and investor class. Preserve all material conditions, thresholds, and calculation bases. Do not estimate missing information or use terms from predecessor funds, parallel vehicles, other strategies, or unrelated classes.
+
+Keep unresolved conflicts and missing-term notes separate from the final memo-ready table.
+
+
+DETAILED VALIDATION PROMPT FOR COMPLEX SOURCE FOLDERS
+
+Please prepare and validate the "Fund Terms Summary" for:
+
+Target Fund: [insert exact fund name]
+GP / Firm: [insert firm name if known]
+Investor Class / Vehicle: [insert if applicable]
+Sources: Use the attached knowledge base / shared folder.
+
+Before drafting the final table, perform an internal source audit:
+
+- Identify the legal name and strategy of the target fund.
+- Identify the relevant GP entity and investor class.
+- List the controlling LPA, PPM, term sheet, amendments, and supplements, including their dates or version status when available.
+- Exclude predecessor funds, parallel vehicles, other strategies, and unrelated investor classes.
+- Resolve each term using the most recent controlling source.
+- Cross-check management fee bases, carry tiers, hurdle, waterfall, fee offsets, expenses, key-person triggers, GP commitment, borrowing limits, recycling, and co-investment provisions.
+
+Then provide:
+
+1. A memo-ready two-column Fund Terms Summary table.
+2. A separate review note containing only unresolved conflicts, missing material terms, or items requiring manual confirmation.
+3. A source reference list showing the primary document used for each material table row.
+
+Please provide the final table as a Word document if available. Keep the audit and source reference list outside the memo-ready table.
